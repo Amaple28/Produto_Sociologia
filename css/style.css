@@ -376,7 +376,7 @@ p:last-child {
 }
 
 .intro h1 span.smaller {
-    font-size: 20px;
+    font-size: 25px;
     font-family: Oswald;
     display: block;
     margin-bottom: 30px;
@@ -493,7 +493,9 @@ p:last-child {
 .pricingbadge h4 {
     color: #FFFFFF;
     font-size: 20px;
-    text-transform: uppercase;
+    text-align: justify;
+    padding: 0px;
+    padding-top: 0px;
     margin-bottom: 10px;
 }
 
@@ -503,7 +505,6 @@ p:last-child {
     position: relative;
     float: left;
     line-height: 1.2em;
-    margin: -.9em 0 0 0;
     width: 100%;
     text-align: left;
 }
@@ -714,7 +715,7 @@ a.fullpricelist {
     width: 400px;
     height: 400px;
     background: rgba(6, 6, 6, 0.5);
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255);
     border-radius: 100%;
     margin-left: -60px;
 }
@@ -728,10 +729,19 @@ a.fullpricelist {
     width: 100%;
     background: transparent;
     border: 0;
-    border-bottom: 1px solid #555;
+    border-bottom: 1px solid rgb(255, 255, 255);
     font-family: Oswald;
     padding: 10px 0;
-    color: rgba(241, 229, 90, 0.5);
+    color: rgba(255, 255, 255);
+}
+
+.btn {
+    background-color: rgba(0, 0, 0);
+    color: rgba(250, 250, 250);
+}
+
+a {
+    color: inherit;
 }
 
 .contactform input.btnsend {
@@ -810,7 +820,7 @@ a.map {
 }
 
 .logoarea .intro h1 span.smaller {
-    font-size: 16px;
+    font-size: 23px;
     margin-bottom: 20px;
     line-height: 1;
     display: block;
