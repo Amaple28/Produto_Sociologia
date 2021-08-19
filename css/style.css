@@ -399,7 +399,7 @@ p:last-child {
     color: #fff;
     line-height: 260px;
     font-weight: 300;
-    font-size: 17px;
+    font-size: 22px;
 }
 
 .aboutbadge.black {
@@ -407,16 +407,16 @@ p:last-child {
     color: rgba(255, 255, 255, 0.5);
     width: 350px;
     height: 350px;
-    font-size: 14px;
+    font-size: 25 px;
     line-height: 210px;
-    margin-top: -80px;
+    margin-top: -50px;
     margin-left: 60px;
 }
 
 .aboutbadge.black span {
-    font-size: 16px;
+    font-size: 25 px;
     font-weight: 300;
-    padding: 90px;
+    padding: 40px;
 }
 
 .aboutbadge span {
@@ -476,7 +476,7 @@ p:last-child {
     width: 220px;
     max-width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
-    height: 220px;
+    height: 200px;
     border-radius: 50%;
     padding: 7%;
     color: rgba(255, 255, 255, 0.5);
@@ -491,9 +491,8 @@ p:last-child {
 }
 
 .pricingbadge h4 {
-    color: #be2d5a;
+    color: #FFFFFF;
     font-size: 20px;
-    font-weight: 400;
     text-transform: uppercase;
     margin-bottom: 10px;
 }
@@ -517,14 +516,13 @@ p:last-child {
 .pricing_menu__meal span {
     margin: 0;
     position: relative;
-    top: 1.6em;
     padding-right: 5px;
     background: #090a0d;
     line-height: 1.4;
 }
 
 .pricing_menu__price {
-    padding: 1px 0 1px 5px;
+    padding: 1px 0 1px 1px;
     position: relative;
     top: .4em;
     left: 1px;
@@ -601,8 +599,8 @@ a.fullpricelist {
 
 .testimonialarea-bubble {
     display: Inline-block;
-    width: 330px;
-    height: 330px;
+    width: 430px;
+    height: 430px;
     background: rgba(90, 227, 241, 0.5);
     color: #333;
     border-radius: 100%;
@@ -612,8 +610,9 @@ a.fullpricelist {
     position: relative;
     text-align: center;
     overflow: hidden;
-    padding: 25% 20%;
-    color: rgba(255, 255, 255, 0.7);
+    padding: 20% 20%;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.7);
 }
 
 .testimonial-widget h3 {
@@ -642,8 +641,8 @@ a.fullpricelist {
     -webkit-appearance: none;
     background-color: transparent;
     border: none;
-    width: 30px;
-    top: 110px;
+    width: 10px;
+    top: 70px;
     text-indent: -9999px;
     cursor: pointer;
 }
